@@ -9,13 +9,10 @@ The idea is simple: **in theory**, this should help you figure out which classes
 ## How it works
 First, go to **TISS**, add all the classes you're considering to your favorites, and export your calendar as an `.ical` file.
 Then:
-1. Put the `.ical` file into the `/files` folder.
+1. Put the `.ical` file into the `/files` folder. Name it cal.ical to be sure it works.
 2. Open the project folder in Visual Studio.
 3. Open the `semester_planning_app` folder.
-4. Open the terminal and run:
-    ```bash
-    shiny run --reload app.py
-    ```
+4. Open `calendar_app.py` in Visual Studio and **press the Play ▶ button** to run the app.
 5. Copy the localhost link that appears and paste it into your browser of choice.
 That's it.
 
